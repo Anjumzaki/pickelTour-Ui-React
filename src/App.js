@@ -6,6 +6,8 @@ import Nav from './components/navbar/Nav'
 import MyHeader from './components/header/MyHeader'
 import SubHeader from './components/subheader/SubHeader'
 import Tornaments from './components/tournaments/Tornaments'
+import Footer from './components/footer/Footer'
+
 
 
 
@@ -17,7 +19,8 @@ function App() {
      <MyHeader/>
      <SubHeader/>
      <Tornaments/>
-     <Home/>
+     <Footer/>
+     
     </div>
   );
 }

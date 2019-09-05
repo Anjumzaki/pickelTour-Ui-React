@@ -27,7 +27,7 @@ export default class Example extends React.Component {
   render() {
     return (
       <div className="header-container">
-        <Navbar light expand="lg" className="header-container2">
+        <Navbar dark expand="lg" className="header-container2">
           <NavbarBrand to="/"><img className="header-logo" src={logo} alt="" /></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>

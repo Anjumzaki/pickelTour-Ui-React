@@ -34,3 +34,12 @@
 .tourTeam{
     padding-top: 0px
 }
+@media screen and (max-width: 750px) {
+    .fwrapDiv{
+        border-right:none;
+        border-bottom: 1px solid white;
+        padding-bottom: 5%;
+        margin-bottom: 5%;
+
+    }
+  }
