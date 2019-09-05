@@ -1,0 +1,115 @@
+.searchBar {
+    margin: auto;
+    width: 90%;
+    margin-top: 40px;
+}
+
+.seText {
+    color: #2980b9
+}
+
+.seeAll {
+    padding-top: 7px;
+    padding-left: 10px;
+}
+
+.myCuCard {
+    background: /* top, transparent red */
+    linear-gradient(
+        rgba(0, 0, 0, 0), 
+        rgba(0, 0, 0, 0.4)
+    ),
+    url("../../assets/cardBack.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 40px;
+    transition: 0.5s;
+    color: white;
+    cursor: pointer
+}
+.myCuCard2{
+    width: 40%;
+    float: left;
+    margin: auto;
+    margin: 50px 5%;
+}
+.myCuCard3{
+    margin-top: 12%;
+    font-size: 12px;
+    background-color: white;
+}
+.toBa{
+    padding: 5px 10px;
+    background-color: #3498db;
+    font-size: 10px;
+    border-radius: 5px;
+}
+.myCuCard h3{
+    font-weight: bold;
+}
+.myCuCard:hover {
+    background: /* top, transparent red */
+    linear-gradient(
+        rgba(0, 0, 0, 0.4), 
+        rgba(0, 0, 0, 0.8)
+    ),
+    url("../../assets/cardBack.jpg");
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    transition: background 1s ease-in-out;
+    border-radius: 20px;
+}
+.teamReL{
+    width: 20px;
+}
+
+.table tr:not(:first-child) td,.table tr:not(:first-child) th {
+   padding: 10px 5px !important;
+   text-align: center !important
+}
+.table tr:first-child th{
+    font-size: 20px;
+}
+.playerCard{
+    background: /* top, transparent red */
+    linear-gradient(
+        rgba(0, 0, 0, 0), 
+        rgba(0, 0, 0, 0.4)
+    ),
+    url("../../assets/player.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.playerCard:hover{
+    background: /* top, transparent red */
+    linear-gradient(
+        rgba(0, 0, 0, 0.4), 
+        rgba(0, 0, 0, 0.8)
+    ),
+   url('../../assets/player.jpg');
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    transition: background 1s ease-in-out;
+    border-radius: 20px;
+}
+
+.cardBody {
+    padding-top: 30%;
+}
+.adver{
+    height: 350px;
+}
+@media screen and (max-width: 750px) {
+    .myCuCard h3{
+  font-size: 15px !important;
+    }
+    .myCuCard h6, .myCuCard p,.text-muted{
+        font-size: 10px !important;
+    }
+  }

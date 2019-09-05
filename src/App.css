@@ -12,5 +12,9 @@
   src: local('Avenir LT Std 35 Light'), url('./assets/fotns/AvenirLTStd-Light.woff') format('woff');
   }
   body {
-    font-family: 'PT Serif', 'serif' !important
+    font-family: 'Montserrat', 'serif' !important;
+  
+}
+.App{
+  background-color: #ecf0f1
 }

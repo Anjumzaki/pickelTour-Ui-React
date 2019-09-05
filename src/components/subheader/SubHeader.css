@@ -1,0 +1,36 @@
+.sbROw {
+    background: #3498db;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    padding: 20px 0px;
+    color: white;
+}
+
+.sbROw .loc {
+    background: #2c3e50
+}
+
+.subhdt {
+    display: inline-block;
+    width: 50px;
+    margin: auto;
+}
+.wrapsubhd{
+    justify-content: center;
+    padding-top: 6%;
+}
+.wrapsubhd span:last-child{
+    padding-left:30px;
+}
+.wrapsubhd span img{
+    margin-right: 10px;
+}
+.fwrapDiv{
+    border-right: white 1px solid
+}
+.tourTeam span img{
+    width: 100px;
+}
+.tourTeam{
+    padding-top: 0px
+}
