@@ -1,0 +1,111 @@
+.realmilk-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh ;
+    background-image: url("../../assets/back.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+.row{
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.realmilk-c2{
+    display: flex;
+    flex-direction: column;
+    /* background-color: antiquewhite; */
+}
+.real-milk-h{
+  font-size: 90px;
+    line-height: 1em;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 0.8rem;
+    padding-left: 20%;
+    padding-top: 20%;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 7px black;
+
+    /* text-align: center; */
+}
+.creating-p{
+    font: normal normal normal 17px/1.4em 'Avenir LT Std 35 Light',sans-serif;
+    color: black; 
+    letter-spacing: 0.2rem;
+    width: 100%;
+    text-align: left;
+
+}
+.from-the-lab-p{
+    font: normal normal normal 17px/1.4em 'Avenir LT Std 35 Light',sans-serif;
+    color: black; 
+    letter-spacing: 0.2rem;
+    width: 100%;
+    text-align: right;
+}
+.scroreBoard{
+  font-family: 'Montserrat',sans-serif;
+  color: white;
+  border-left: 2px solid white;
+  border-bottom: 2px solid white;
+  max-width: 400px;
+  padding: 7px;
+  
+  padding-left: 20px;
+  background-color:rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+}
+.scroreBoard:last-child{
+  border-bottom: none;
+}
+.scroreBoard p{
+  margin-bottom: 0px;
+}
+.scroreBoard h4{
+  margin-top: 5px;
+}
+.loc{
+  background-color: #2980b9;
+  padding: 2px;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+.live p{
+  color: #e74c3c
+}
+.live i{
+font-size: 20px;
+color: #c0392b
+}
+
+
+@media screen and (max-width: 950px) {
+    .real-milk-h{
+  font-size: 50px;
+  letter-spacing: 1.3rem;
+    }
+  }
+  @media screen and (max-width: 830px) {
+    .real-milk-h{
+  font-size: 40px;
+  letter-spacing: 1.1rem;
+
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .real-milk-h{
+  font-size: 40px;
+  letter-spacing: 0.9rem;
+
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .real-milk-h{
+  font-size: 30px;
+  letter-spacing: 0.5rem;
+
+    }
+  }
